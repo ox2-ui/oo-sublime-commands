@@ -1,0 +1,92 @@
+[
+  {
+    "caption": "oo: Generate - Template",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:t ${template::Template Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Collection - Server",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:col ${collection::Collection Name} --where 'server' ",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Publish",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:p ${publish::Publish Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Collection - Client",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:col ${collection::Collection Name} --where 'client' ",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Collection - Both",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:col ${collection::Collection Name} --where 'both' ",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Package - Component",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:pgk ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Package - Library",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:pgk ${package::Package Name} --lib",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Method - Server",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:m ${method::Method Name} --where 'server' ",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Method - Client",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:m ${method::Method Name} --where 'client' ",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Method - Both",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:m ${method::Method Name} --where 'both' ",
+      "panel": true,
+      "root_dir": true
+    }
+  }
+]
