@@ -1,5 +1,41 @@
 [
   {
+    "caption": "oo: Package - Add",
+    "command": "shell_command",
+    "args": {
+      "command": "oo add ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Package - Add Local",
+    "command": "shell_command",
+    "args": {
+      "command": "oo add-local ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Package - Link",
+    "command": "shell_command",
+    "args": {
+      "command": "oo link ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Package - Unlink",
+    "command": "shell_command",
+    "args": {
+      "command": "oo unlink ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
     "caption": "oo: Generate - Template",
     "command": "shell_command",
     "args": {
@@ -48,7 +84,7 @@
     "caption": "oo: Generate - Package - Component",
     "command": "shell_command",
     "args": {
-      "command": "oo g:pgk ${package::Package Name}",
+      "command": "oo g:pkg ${package::Package Name}",
       "panel": true,
       "root_dir": true
     }
@@ -57,7 +93,7 @@
     "caption": "oo: Generate - Package - Library",
     "command": "shell_command",
     "args": {
-      "command": "oo g:pgk ${package::Package Name} --lib",
+      "command": "oo g:pkg ${package::Package Name} --lib",
       "panel": true,
       "root_dir": true
     }
