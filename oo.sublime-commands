@@ -18,6 +18,15 @@
     }
   },
   {
+    "caption": "oo: Package - Remove Local",
+    "command": "shell_command",
+    "args": {
+      "command": "oo remove-local ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
     "caption": "oo: Package - Link",
     "command": "shell_command",
     "args": {
