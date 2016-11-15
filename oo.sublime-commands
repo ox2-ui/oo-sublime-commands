@@ -72,6 +72,15 @@
     }
   },
   {
+    "caption": "oo: Generate - GraphQL Story",
+    "command": "shell_command",
+    "args": {
+      "command": "oo g:graphql-story ${template::Template Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
     "caption": "oo: Generate - Publish",
     "command": "shell_command",
     "args": {
