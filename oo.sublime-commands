@@ -54,6 +54,24 @@
     }
   },
   {
+    "caption": "oo: Generate - Component",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:component ${template::Template Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - Component Class",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:componentclass ${template::Template Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
     "caption": "oo: Generate - Publish",
     "command": "shell_command",
     "args": {
