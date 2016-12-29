@@ -126,6 +126,15 @@
     }
   },
   {
+    "caption": "oo: Generate - Package - REACT",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:package-react ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
     "caption": "oo: Generate - Package - Component",
     "command": "shell_command",
     "args": {
