@@ -1,6 +1,6 @@
 [
   {
-    "caption": "oo: Package - Add",
+    "caption": "oo: Meteor Package - Add",
     "command": "shell_command",
     "args": {
       "command": "oo add ${package::Package Name}",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "caption": "oo: Package - Add Local",
+    "caption": "oo: Meteor Package - Add Local",
     "command": "shell_command",
     "args": {
       "command": "oo add-local ${package::Package Name}",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "caption": "oo: Package - Remove Local",
+    "caption": "oo: Meteor Package - Remove Local",
     "command": "shell_command",
     "args": {
       "command": "oo remove-local ${package::Package Name}",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "caption": "oo: Package - Link",
+    "caption": "oo: Meteor Package - Link",
     "command": "shell_command",
     "args": {
       "command": "oo link ${package::Package Name}",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "caption": "oo: Package - Unlink",
+    "caption": "oo: Meteor Package - Unlink",
     "command": "shell_command",
     "args": {
       "command": "oo unlink ${package::Package Name}",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "caption": "oo generate: - Template",
+    "caption": "oo generate: - Meteor Template",
     "command": "shell_command",
     "args": {
       "command": "oo generate:template ${template::Template Name}",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "caption": "oo generate: - Publish",
+    "caption": "oo generate: - Meteor Publish",
     "command": "shell_command",
     "args": {
       "command": "oo generate:publish ${publish::Publish Name}",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "caption": "oo generate: - Collection - Client",
+    "caption": "oo generate: - Meteor Collection - Client",
     "command": "shell_command",
     "args": {
       "command": "oo generate:collection ${collection::Collection Name} --where 'client' ",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "caption": "oo generate: - Collection - Server",
+    "caption": "oo generate: - Meteor Collection - Server",
     "command": "shell_command",
     "args": {
       "command": "oo generate:collection ${collection::Collection Name} --where 'server' ",
@@ -135,7 +135,7 @@
     }
   },
   {
-    "caption": "oo generate: - Collection - Both",
+    "caption": "oo generate: - Meteor Collection - Both",
     "command": "shell_command",
     "args": {
       "command": "oo generate:collection ${collection::Collection Name} --where 'both' ",
@@ -171,7 +171,7 @@
     }
   },
   {
-    "caption": "oo generate: - Package - Component",
+    "caption": "oo generate: - Meteor Package - Component",
     "command": "shell_command",
     "args": {
       "command": "oo generate:package ${package::Package Name}",
@@ -180,7 +180,7 @@
     }
   },
   {
-    "caption": "oo generate: - Package - Library",
+    "caption": "oo generate: - Meteor Package - Library",
     "command": "shell_command",
     "args": {
       "command": "oo generate:package ${package::Package Name} --lib",
@@ -189,7 +189,7 @@
     }
   },
   {
-    "caption": "oo generate: - Method - Server",
+    "caption": "oo generate: - Meteor Method - Server",
     "command": "shell_command",
     "args": {
       "command": "oo generate:methods ${method::Method Name} --where 'server' ",
@@ -198,7 +198,7 @@
     }
   },
   {
-    "caption": "oo generate: - Method - Client",
+    "caption": "oo generate: - Meteor Method - Client",
     "command": "shell_command",
     "args": {
       "command": "oo generate:methods ${method::Method Name} --where 'client' ",
@@ -207,7 +207,7 @@
     }
   },
   {
-    "caption": "oo generate: - Method - Both",
+    "caption": "oo generate: - Meteor Method - Both",
     "command": "shell_command",
     "args": {
       "command": "oo generate:methods ${method::Method Name} --where 'both' ",
