@@ -45,7 +45,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Template",
+    "caption": "oo generate: - Template",
     "command": "shell_command",
     "args": {
       "command": "oo generate:template ${template::Template Name}",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "caption": "oo: Generate - React Component",
+    "caption": "oo generate: - React Component",
     "command": "shell_command",
     "args": {
       "command": "oo generate:component ${template::Template Name}",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "caption": "oo: Generate - React Component --styling class",
+    "caption": "oo generate: - React Component --styling class",
     "command": "shell_command",
     "args": {
       "command": "oo generate:component ${template::Template Name} --styling class",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "caption": "oo: Generate - React Component --styling style",
+    "caption": "oo generate: - React Component --styling style",
     "command": "shell_command",
     "args": {
       "command": "oo generate:component ${template::Template Name} --styling style",
@@ -81,7 +81,7 @@
     }
   },
   {
-    "caption": "oo: Generate - React Component --styling both",
+    "caption": "oo generate: - React Component --styling both",
     "command": "shell_command",
     "args": {
       "command": "oo generate:component ${template::Template Name} --styling both",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "caption": "oo: Generate - React Component Class",
+    "caption": "oo generate: - React Component Class",
     "command": "shell_command",
     "args": {
       "command": "oo generate:class ${template::Template Name}",
@@ -99,7 +99,7 @@
     }
   },
   {
-    "caption": "oo: Generate - GraphQL Story",
+    "caption": "oo generate: - GraphQL Story",
     "command": "shell_command",
     "args": {
       "command": "oo g:graphql-story ${template::Template Name}",
@@ -108,7 +108,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Publish",
+    "caption": "oo generate: - Publish",
     "command": "shell_command",
     "args": {
       "command": "oo generate:publish ${publish::Publish Name}",
@@ -117,7 +117,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Collection - Client",
+    "caption": "oo generate: - Collection - Client",
     "command": "shell_command",
     "args": {
       "command": "oo generate:collection ${collection::Collection Name} --where 'client' ",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Collection - Server",
+    "caption": "oo generate: - Collection - Server",
     "command": "shell_command",
     "args": {
       "command": "oo generate:collection ${collection::Collection Name} --where 'server' ",
@@ -135,7 +135,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Collection - Both",
+    "caption": "oo generate: - Collection - Both",
     "command": "shell_command",
     "args": {
       "command": "oo generate:collection ${collection::Collection Name} --where 'both' ",
@@ -144,43 +144,34 @@
     }
   },
   {
-    "caption": "oo: Generate - Package - NPM",
+    "caption": "oo generate: - npm",
     "command": "shell_command",
     "args": {
-      "command": "oo generate:package-npm ${package::Package Name}",
+      "command": "oo generate:npm ${package::Package Name}",
       "panel": true,
       "root_dir": true
     }
   },
   {
-    "caption": "oo: Generate - npm - React Component",
+    "caption": "oo generate: - npm - CSS",
     "command": "shell_command",
     "args": {
-      "command": "oo generate:package-react ${package::Package Name}",
+      "command": "oo generate:npm ${package::Package Name} --type css",
       "panel": true,
       "root_dir": true
     }
   },
   {
-    "caption": "oo: Generate - npm - Library",
+    "caption": "oo generate: - npm - React Component",
     "command": "shell_command",
     "args": {
-      "command": "oo generate:package-lib ${package::Package Name}",
+      "command": "oo generate:npm ${package::Package Name} --type react",
       "panel": true,
       "root_dir": true
     }
   },
   {
-    "caption": "oo: Generate - npm - CSS",
-    "command": "shell_command",
-    "args": {
-      "command": "oo generate:package-css ${package::Package Name}",
-      "panel": true,
-      "root_dir": true
-    }
-  },
-  {
-    "caption": "oo: Generate - Package - Component",
+    "caption": "oo generate: - Package - Component",
     "command": "shell_command",
     "args": {
       "command": "oo generate:package ${package::Package Name}",
@@ -189,7 +180,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Package - Library",
+    "caption": "oo generate: - Package - Library",
     "command": "shell_command",
     "args": {
       "command": "oo generate:package ${package::Package Name} --lib",
@@ -198,7 +189,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Method - Server",
+    "caption": "oo generate: - Method - Server",
     "command": "shell_command",
     "args": {
       "command": "oo generate:methods ${method::Method Name} --where 'server' ",
@@ -207,7 +198,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Method - Client",
+    "caption": "oo generate: - Method - Client",
     "command": "shell_command",
     "args": {
       "command": "oo generate:methods ${method::Method Name} --where 'client' ",
@@ -216,7 +207,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Method - Both",
+    "caption": "oo generate: - Method - Both",
     "command": "shell_command",
     "args": {
       "command": "oo generate:methods ${method::Method Name} --where 'both' ",
