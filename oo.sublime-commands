@@ -54,7 +54,7 @@
     }
   },
   {
-    "caption": "oo: Generate - Component",
+    "caption": "oo: Generate - React Component",
     "command": "shell_command",
     "args": {
       "command": "oo generate:component ${template::Template Name}",
@@ -63,10 +63,37 @@
     }
   },
   {
-    "caption": "oo: Generate - Component Class",
+    "caption": "oo: Generate - React Component --styling class",
     "command": "shell_command",
     "args": {
-      "command": "oo generate:componentclass ${template::Template Name}",
+      "command": "oo generate:component ${template::Template Name} --styling class",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - React Component --styling style",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:component ${template::Template Name} --styling style",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - React Component --styling both",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:component ${template::Template Name} --styling both",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - React Component Class",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:class ${template::Template Name}",
       "panel": true,
       "root_dir": true
     }
@@ -126,10 +153,28 @@
     }
   },
   {
-    "caption": "oo: Generate - Package - REACT",
+    "caption": "oo: Generate - npm - React Component",
     "command": "shell_command",
     "args": {
       "command": "oo generate:package-react ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - npm - Library",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:package-lib ${package::Package Name}",
+      "panel": true,
+      "root_dir": true
+    }
+  },
+  {
+    "caption": "oo: Generate - npm - CSS",
+    "command": "shell_command",
+    "args": {
+      "command": "oo generate:package-css ${package::Package Name}",
       "panel": true,
       "root_dir": true
     }
